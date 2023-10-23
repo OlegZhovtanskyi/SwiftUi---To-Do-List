@@ -18,6 +18,7 @@
 		744A3AB82AE6625600F4792F /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 744A3AB72AE6625600F4792F /* FirebaseRemoteConfigSwift */; };
 		744A3ABA2AE6625600F4792F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 744A3AB92AE6625600F4792F /* FirebaseStorage */; };
 		744A3ABC2AE6625600F4792F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 744A3ABB2AE6625600F4792F /* FirebaseStorageCombine-Community */; };
+		744A3ABE2AE66B1D00F4792F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744A3ABD2AE66B1D00F4792F /* Extensions.swift */; };
 		747F811A2AE50A6E0066C123 /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F81192AE50A6E0066C123 /* To_Do_ListApp.swift */; };
 		747F811C2AE50A6E0066C123 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F811B2AE50A6E0066C123 /* MainView.swift */; };
 		747F811E2AE50A6F0066C123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747F811D2AE50A6F0066C123 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		744A3AA62AE65A2A00F4792F /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		744A3ABD2AE66B1D00F4792F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		747F81162AE50A6E0066C123 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747F81192AE50A6E0066C123 /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		747F811B2AE50A6E0066C123 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				747F81192AE50A6E0066C123 /* To_Do_ListApp.swift */,
 				747F812C2AE50CB10066C123 /* GoogleService-Info.plist */,
 				747F811D2AE50A6F0066C123 /* Assets.xcassets */,
+				744A3ABD2AE66B1D00F4792F /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				747F81482AE512920066C123 /* ToDoListViewViewModel.swift in Sources */,
 				747F814C2AE512BE0066C123 /* LoginViewViewModel.swift in Sources */,
 				747F811A2AE50A6E0066C123 /* To_Do_ListApp.swift in Sources */,
+				744A3ABE2AE66B1D00F4792F /* Extensions.swift in Sources */,
 				747F81422AE5122C0066C123 /* ToDoListItem.swift in Sources */,
 				747F81382AE511210066C123 /* NewItemView.swift in Sources */,
 				747F814A2AE512B00066C123 /* NewItemViewViewModel.swift in Sources */,
