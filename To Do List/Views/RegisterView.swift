@@ -20,12 +20,20 @@ struct RegisterView: View {
                        angle: -15)
             
             Form {
+                if  !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage)
+                        .foregroundStyle(.red)
+                }
+                
                 TextField("Full name", text: $viewModel.name)
                     .autocorrectionDisabled()
+//                    .ignoresSafeArea(.keyboard, edges: .bottom)
                 TextField("Email Address", text: $viewModel.email)
                     .autocorrectionDisabled()
                     .textInputAutocapitalization(.never)
+//                    .ignoresSafeArea(.keyboard, edges: .bottom)
                 SecureField("Password", text: $viewModel.password)
+//                    .ignoresSafeArea(.keyboard, edges: .bottom)
                 
                 TLButton(title: "Create Account",
                          backgroundColor: .purple) {
@@ -34,6 +42,7 @@ struct RegisterView: View {
                 }
             }
             .offset(y: -50)
+            .ignoresSafeArea(.keyboard, edges: .bottom)
             
             Spacer()
         }

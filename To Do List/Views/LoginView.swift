@@ -39,6 +39,7 @@ struct LoginView: View {
                         viewModel.login()
                     }
                 }
+                .ignoresSafeArea(.keyboard, edges: .bottom)
                 .offset(y: -15)
                 
                 // Create Account

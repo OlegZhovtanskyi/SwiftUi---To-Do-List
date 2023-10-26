@@ -14,6 +14,7 @@ class RegisterViewViewModel: ObservableObject {
     @Published var name = ""
     @Published var email = ""
     @Published var password = ""
+    @Published var errorMessage = ""
     
     init() {}
     
@@ -52,7 +53,7 @@ class RegisterViewViewModel: ObservableObject {
         }
         
         guard email.contains("@") && email.contains(".") else {
-//            errorMessage = "Please enter valid email"
+            errorMessage = "Please enter valid email"
             return false
         }
         
