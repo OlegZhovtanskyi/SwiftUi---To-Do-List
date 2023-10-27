@@ -30,7 +30,7 @@ struct LoginView: View {
                     
                     TextField("Email Address", text: $viewModel.email)
                         .autocorrectionDisabled()
-                        .textInputAutocapitalization(.none)
+                        .textInputAutocapitalization(.never)
                     SecureField("Password", text: $viewModel.password)
                     
                     TLButton(title: "Log in",
